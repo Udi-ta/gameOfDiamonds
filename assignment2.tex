@@ -1,0 +1,92 @@
+\documentclass[12 pt]{report}
+\usepackage{hyperref}
+
+\begin{document}
+\title{Game of Diamonds}
+\maketitle
+I used perplexity genAI chatbot for this purpose. it was generally understanding what I \\
+told but at the same time I was dicey of the fact if it was actually understanding the game or not.\\
+
+\chapter{PHASE 1 - Teaching}
+
+\section{Rules of the game}
+\subsection{Setup:} 
+For 2 players: Set aside the Club suit. \\
+For 3 players: Shuffle all suits. \\
+Place Diamonds in the center, distribute other suits to players. \\
+\subsection{Bidding Process:}
+Draw a random Diamond card as the lowest bid. \\
+Players secretly choose bids. \\
+Reveal bids; higher bid wins. \\
+\subsection{Gameplay:}
+Players aim to predict and win bid tricks. \\
+Points: 10 per bid trick, 1 per overtrick, -10 per undertrick. \\
+Start with lowest Club card; highest card of played suit wins unless a Diamond is played. \\
+\subsection{Scoring:}
+Score based on bids and tricks taken. \\
+Winning bid determines the trump suit for that round. \\
+\subsection{Winning:}
+Player with the most points at the end wins. \\
+
+\section{promts given}
+All the promts given and the conversation are given in the hyperlink provided \\
+\href{https://www.perplexity.ai/search/do-you-know-gHKgfZmeSsy.cOMl1H1eSQ}{Conversation with perplexity}
+
+\section{strategies discussed}
+I thought that perplexity was not actually getting the game but the strategy it gave was almost \\
+mind blowing for me due the flexibility and the tricks it observed by playing the game with me.\\
+It understood my strategy due to which it lost the game, and observed the undertricks where it lagged \\
+thus giving a considerably nice game strategy, The srategy it gave is as follows:
+\subsection{Strategic Bidding:}
+Accurately predict the number of tricks you can win based on your hand strength. \\
+Avoid overbidding to prevent penalties for undertricks. \\
+Consider opponents' bids and adjust your bid accordingly. \\
+\subsection{Trump Management:}
+here trump means - suit of highest importance i.e. Diamonds here \\ 
+Utilize Diamonds as trump effectively to win tricks. \\
+Save high-ranking Diamond cards for crucial moments to secure bid tricks. \\
+\subsection{Card Play Tactics:}
+Lead with low Clubs to start tricks strategically. \\
+Follow suit whenever possible, reserving high cards for key moments. \\
+Use Diamonds wisely, especially when they become trump. \\
+\subsection{Scoring Awareness:}
+Aim to fulfill your bid while maximizing overtricks for extra points. \\
+Minimize undertricks to avoid losing points. \\
+\subsection{Adaptability and Observation:}
+Observe opponents' plays and adjust your strategy accordingly. \\
+Stay flexible during gameplay, adapting to changing circumstances. \\
+
+\section{Code for strategy}
+I gave the prompts and on basis of them it generated a code which was not fully functional,\\
+ it was important to make input statements in it, again the code it provided is there in the chat\\
+\href{https://www.perplexity.ai/search/do-you-know-gHKgfZmeSsy.cOMl1H1eSQ}{click here for chat link} \\
+and the colab notebook where I tried testing the code which I wasn't able to complete is also here \\
+for your reference \href{https://colab.research.google.com/drive/1tZvJel6zhkuNIAAIm-4oVlGKxWTS50MF?usp=sharing}{Click here for colab} \\
+
+
+\chapter{PHASE 2 - Reflections}
+
+\section{Reflections on conversations}
+In my journey of teaching perplexity to GenAI, I not only devised a game strategy but also developed \\
+ a code for autonomous gameplay. While perplexity's understanding fell short compared to ChatGPT, its\\
+ rapid learning capabilities proved invaluable. Despite its limitations, it provided me with a wealth\\
+   of insights, particularly in scenarios demanding a quick learning curve. Its proficiency in learning\\
+    through action rather than comprehension was evident, highlighting its unique strengths. \\
+This experience underscored the importance of leveraging diverse AI approaches, each offering distinct\\
+ advantages. Through this collaboration, I gained a deeper appreciation for the multifaceted nature of \\
+ artificial intelligence and its potential applications. \\
+(you must know the fact that I used ChatGPT to generate this summary...)
+
+\section{Reflections on code generated}
+The generated code fell short of expectations, requiring numerous modifications despite initial \\
+adjustments. Unlike Gemini, which showcased superior adaptability in code generation, this iteration \\
+lacked similar proficiency. It highlighted the importance of robust AI models capable of evolving and \\
+adapting to diverse tasks effectively.
+
+\section{conclusion}
+Thus This is how I taught perplexity GenAI about this game and thus developed a game strategy as well as \\
+a code for playing it with computer itself. though I felt perplexity was not as good as even chatGPT at understanding \\
+still it provided me with a considerable amount of reasons to use it at some places where I need \\
+a faster learning rate because I felt that somehow, it is better at learning by doing not by understanding.\\
+
+\end{document}
